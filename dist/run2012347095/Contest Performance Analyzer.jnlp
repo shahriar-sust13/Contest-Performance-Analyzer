@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Contest Performance Analyzer.jnlp">
+  <information>
+    <title>Contest Performance Analyzer</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib/controlsfx-samples-8.40.11.jar" size="535604" download="eager" />
+    <jar href="lib/curvesapi-1.03.jar" size="92241" download="eager" />
+    <jar href="lib/fxsampler-1.0.9.jar" size="30933" download="eager" />
+    <jar href="lib/itextpdf-5.4.1-sources.jar" size="1934883" download="eager" />
+    <jar href="lib/itextpdf-5.4.1.jar" size="1898417" download="eager" />
+    <jar href="lib/junit-4.12.jar" size="314932" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib/poi-3.15-beta1.jar" size="2538750" download="eager" />
+    <jar href="lib/poi-examples-3.15-beta1.jar" size="341726" download="eager" />
+    <jar href="lib/poi-excelant-3.15-beta1.jar" size="31570" download="eager" />
+    <jar href="lib/poi-ooxml-3.15-beta1.jar" size="1292287" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.15-beta1.jar" size="5920793" download="eager" />
+    <jar href="lib/poi-scratchpad-3.15-beta1.jar" size="1320130" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.8.11.2.jar" size="5575351" download="eager" />
+    <jar href="lib/xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Contest Performance Analyzer" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="contest.performance.analyzer.ContestPerformanceAnalyzer"  name="Contest Performance Analyzer" />
+  <update check="always"/>
+</jnlp>
